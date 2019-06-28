@@ -71,7 +71,7 @@
         $("#prediction").text("*");
         $.ajax({
             type: "POST",
-            url: "home/upload",
+            url: '@Url.Action("Upload","Home")',
             data: {
                 imgBase64: canvas.toDataURL()
             }

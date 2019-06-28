@@ -13,7 +13,7 @@ namespace MulticlassClassificationML.ConsoleApp
         private const string MODEL_FILEPATH = @"MLModel.zip";
 
         //Dataset to use for predictions 
-        private const string DATA_FILEPATH = @"C:\Users\aamialchenia\Downloads\optdigits-val.csv";
+        private const string DATA_FILEPATH = @"optdigits.csv";
 
         static void Main(string[] args)
         {

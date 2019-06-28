@@ -16,7 +16,7 @@ namespace MulticlassClassificationML.ConsoleApp
 {
     public static class ModelBuilder
     {
-        private static string TRAIN_DATA_FILEPATH = @"C:\Users\aamialchenia\Downloads\optdigits-val.csv";
+        private static string TRAIN_DATA_FILEPATH = @"optdigits.csv";
         private static string MODEL_FILEPATH = @"../../../../MulticlassClassificationML.Model/MLModel.zip";
 
         // Create MLContext to be shared across the model creation workflow objects 
